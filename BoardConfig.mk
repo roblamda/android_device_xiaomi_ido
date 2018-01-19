@@ -81,6 +81,9 @@ BOARD_RAMDISK_OFFSET     := 0x02000000
 # Power
 TARGET_HAS_NO_POWER_STATS := true
 
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
