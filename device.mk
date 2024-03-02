@@ -50,8 +50,7 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     camera.msm8916 \
     libmm-qcamera \
-    libshim_camera \
-    Snap
+    libshim_camera
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
