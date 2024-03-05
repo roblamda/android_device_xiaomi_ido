@@ -31,7 +31,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.mdpcomp.idletime=600 \
     debug.sf.enable_gl_backpressure=1 \
     persist.hwc.mdpcomp.enable=true \
-    persist.hwc.ptor.enable=true
+    persist.hwc.ptor.enable=true \
+    ro.opengles.version=196610
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -49,7 +50,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.max_starting_bg=8 \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.core_ctl_min_cpu=0 \
-    ro.core_ctl_max_cpu=4
+    ro.core_ctl_max_cpu=4 \
+    ro.min_freq_0=960000 \
+    ro.min_freq_4=800000
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
