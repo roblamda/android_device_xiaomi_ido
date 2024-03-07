@@ -17,6 +17,9 @@
 
 $(call inherit-product, vendor/xiaomi/ido/ido-vendor.mk)
 
+# Dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
