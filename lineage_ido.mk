@@ -23,7 +23,7 @@ $(call inherit-product, device/xiaomi/ido/device.mk)
 # Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ido
